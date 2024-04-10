@@ -176,7 +176,7 @@ a.custom-link:hover {
     }
   }
    /* 在小型设备下，调整轮播图的高度 */
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     .carousel-inner {
       height: 250px; /* 你可以根据需要调整高度 */
     }
