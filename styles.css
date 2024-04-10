@@ -175,6 +175,31 @@ a.custom-link:hover {
       width: 30%; /* 使 card 在大尺寸裝置上佔據三分之一寬度 */
     }
   }
+   /* 在小型设备下，调整轮播图的高度 */
+  @media (max-width: 768px) {
+    .carousel-inner {
+      height: 250px; /* 你可以根据需要调整高度 */
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+  }
+  
+
+  /* 在超小型设备下，进一步调整轮播图的高度 */
+  @media (max-width: 576px) {
+    .carousel-inner {
+      height: 200px; /* 你可以根据需要调整高度 */
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+  }
   .row.justify-content-center {
     text-align: center;
 }
